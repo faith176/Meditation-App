@@ -61,7 +61,7 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:background="@color/darkPurple"
-            android:backgroundTint="@color/darkPurple"
+            android:backgroundTint="#AA8799"
             android:fontFamily="@font/rokkitt"
             android:text="@string/mainButton_message"
             android:textColor="@color/white" />

@@ -7,6 +7,7 @@ import android.graphics.Path;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.TextView;
 
@@ -35,11 +36,20 @@ public class BreatheActivity extends AppCompatActivity {
                 0, 360,
 //                Animation.RELATIVE_TO_PARENT, 0.5f,
 //                Animation.RELATIVE_TO_PARENT, 0.5f
-                Animation.RELATIVE_TO_SELF, 2f,
-                Animation.RELATIVE_TO_SELF, 2f
+                Animation.RELATIVE_TO_SELF, 0.5f,
+                Animation.RELATIVE_TO_SELF, 0.5f
         );
-        rotate.setDuration(22000);
+        rotate.setDuration(7200);
         rotate.setRepeatCount(Animation.INFINITE);
         circle1.startAnimation(rotate);
     }
-}
+
+//        RotateAnimation rotateAnimation1 = new RotateAnimation(0, 360,
+//                Animation.RELATIVE_TO_SELF, 0.5f,
+//                Animation.RELATIVE_TO_SELF, 0.5f);
+//        rotateAnimation1.setInterpolator(new LinearInterpolator());
+//        rotateAnimation1.setDuration(5200);
+//        rotateAnimation1.setRepeatCount(3);
+//        circle1.startAnimation(rotateAnimation1);
+    }
+
