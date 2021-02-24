@@ -63,6 +63,7 @@
             android:background="@color/darkPurple"
             android:backgroundTint="#AA8799"
             android:fontFamily="@font/rokkitt"
+            android:onClick="onStartButtonPressed"
             android:text="@string/mainButton_message"
             android:textColor="@color/white" />
     </LinearLayout>

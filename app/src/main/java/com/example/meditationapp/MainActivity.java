@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     /**
      * The method that will be called when the start button is pressed. Begins main portion of app
      * @param view The current view.
